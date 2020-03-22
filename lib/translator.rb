@@ -19,9 +19,7 @@ def get_japanese_emoticon(file, emoticon)
   # code goes here
   japanese_emoticon = load_library(file)['get_emoticon'][emoticon]
   !japanese_emoticon ? japanese_emoticon : "Sorry, that emoticon could not be found."
-  else
 
-  end
 end
 
 def get_english_meaning(file, emoticon)
